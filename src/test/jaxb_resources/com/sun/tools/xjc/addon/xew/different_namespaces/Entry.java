@@ -31,7 +31,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlRootElement(name = "entry", namespace = "http://example.com/entry")
 public class Entry {
 
-    @XmlAttribute(name = "name")
+    @XmlAttribute
     @XmlSchemaType(name = "anySimpleType")
     protected String name;
 
